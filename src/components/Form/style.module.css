@@ -1,0 +1,39 @@
+.main_form{
+  width: 30%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.main_form ul, 
+.main_form li{
+  text-align: left;
+  color: rgb(224, 46, 46);
+}
+
+.input_form {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.input_form input, 
+.input_form select, 
+.input_form textarea {
+  margin-top: 4px;
+  padding: 5px;
+}
+
+.submit_form{
+  text-align: left;
+}
+
+.submit_form button, 
+.submit_form input{
+  margin: 10px 10px 0px 0px;
+  padding: 8px 30px;
+  border: 0px;
+  border-radius: 5px;
+  font-size: 15px;
+  
+}
